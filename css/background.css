@@ -2,7 +2,7 @@ body {
     background-image: url('img/Background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     min-height: 100vh;
     margin: 0;
     padding: 0;

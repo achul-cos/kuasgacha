@@ -18,11 +18,23 @@
             background-image: url('img/Background.png');
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: top center;
             min-height: 100vh;
             overflow-x: hidden;
             position: relative;
         }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0,0,0,0.5);
+            z-index: 0;
+            pointer-events: none;
+        }        
 
         /* Animated Background */
         .stars {
